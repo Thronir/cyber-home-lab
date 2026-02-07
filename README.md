@@ -26,7 +26,15 @@ The lab is built around a bare-metal Ubuntu Server installation, hardened and mo
 - Restricted firewall to OpenSSH only
 - Verified service exposure using Nmap
 
----
+### Evidence – SSH & Firewall Verification
+
+This screenshot demonstrates:
+- Successful SSH connection from Windows host to Ubuntu Server
+- Verification of hostname and OS version
+- System uptime validation
+- UFW firewall configured to allow OpenSSH only
+
+![Screenshot 01 – SSH Remote Access & Firewall Verification](screenshots/01-ssh-remote-firewall-status.png)
 
 ## Phase 2: Internal Reconnaissance
 
